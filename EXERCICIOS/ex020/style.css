@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: red;
+}
+a:visited{
+    color: darkred;
+}
+a:hover{
+    background-color: rgba(0, 115, 255, 0.279);
+}
+a:active{
+    color: rgb(0, 42, 255);
+}
+a::after{ 
+    counter-reset: none;
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}
+
+h1{
+   border: solid rgb(0, 55, 255);
+   padding: 0.1em;
+   margin: 0.5em;
+   outline: 1em;
+   outline-color: blue;
+   border-width: 0.3em;
+}

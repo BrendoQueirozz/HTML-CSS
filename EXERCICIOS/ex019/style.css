@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*tudo que em html é (id) em css é (#0
+tudo que em html é (class) em CSS é (.)*/
+body{
+    background-color: rgb(246, 169, 148);
+}
+
+.destaque{
+    background-color:aquamarine;
+}
+main{
+    font-weight: normal;
+    width: 600px;
+    text-align: left;
+    text-align: justify;
+    background-color: white;
+    border-radius: 8px;
+    margin: auto;
+    padding: 1.5%; 
+    box-shadow: 5px 5px 5px rgba(92, 51, 5, 0.247);
+   
+}
+h1#principal {
+    border: solid rgba(134, 81, 2, 0.347);
+    border-width: 4px;
+    color: white;
+    background-color: #ff9966ff;
+    text-align:center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:#ff9966ff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.434);
+}
+h2.basico{
+    color: darkcyan;
+}
+h2.intermediario{
+    color: blueviolet;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #2DCEE3;
+    text-shadow:  0.5px 0.5px 1px #272b2e88;
+}
+p{
+    font-family: 'Courier New', Courier, monospace ;
+    text-indent: 1.5em;
+    font-weight: 500;
+
+}
+span{
+border-style: groove;
+color: black;
+padding: 0.3em;
+}
+div{
+    
+    
+    border: solid black;
+ font-family: 'Courier New', Courier, monospace;
+ background-color: aquamarine;}
